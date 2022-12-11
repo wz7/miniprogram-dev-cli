@@ -1,0 +1,27 @@
+{
+  "name": "authorize",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "miniprogram": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./scripts/postinstall.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "buildConfig": {
+    "platforms": [
+      "wx",
+      "tt",
+      "my",
+      "xhs"
+    ]
+  }
+}
