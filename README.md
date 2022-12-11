@@ -20,3 +20,9 @@ buildConfig:{
   platforms: ["wx", "tt", "my", "xhs"]
 }
 ```
+
+## 启动命令
+
+```
+pnpm run build [package1, [package2]]
+```
